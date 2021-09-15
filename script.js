@@ -5,6 +5,7 @@ const $name = $("#name");
 const $category = $("#category");
 const $ingredients = $("#ingredients");
 const $instructions = $("#instructions");
+const $poster = $("#poster");
 
 
 
@@ -26,6 +27,7 @@ function rendor() {
     $category.text(drinkData.drinks[0].strCategory);
     $ingredients.text(drinkData.drinks[0].strIngredient1);
     $instructions.text(drinkData.drinks[0].strInstructions);
+    $poster.attr("src", drinkData.drinks[0].strDrinkThumb);
 };
 
 // event listener (button)

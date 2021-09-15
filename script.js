@@ -1,3 +1,2 @@
-// alert("Hello!")
-
-// const $list = $("ul");
+const $getDrinkBtn = $("getDrinkBtn");
+const $mainContent = $("main");

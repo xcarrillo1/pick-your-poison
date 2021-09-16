@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: aqua;
+    background-color: navajowhite;
 }
 
 header {
@@ -41,9 +41,16 @@ nav li {
 }
 
 nav li a {
-    color: green;
+    color: peachpuff;
     text-decoration: none;
     font-family: "Bubblegum Sans", sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    transition-duration: 0.4s;
+}
+
+nav li a:hover {
+    background-color:indianred;
 }
 
 div.top {
@@ -52,13 +59,31 @@ div.top {
     font-size: 20px;
 }
 
+button {
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
 aside {
-    float: left;
-    position: relative;
+    margin: 40px;
 }
 
 #poster {
-    width: 400px;
-    height: 400px;
+   max-width: 400px;
+   max-height: 400px; 
 }
 
+.info {
+    margin: 40px;
+}

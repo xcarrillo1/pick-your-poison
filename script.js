@@ -1,3 +1,5 @@
+alert("By clicking 'OK' you are confirming that you are 21 or older!");
+
 let drinkData;
 const $getDrinkBtn = $("#getDrinkBtn");
 const $mainContent = $("main");
@@ -22,10 +24,12 @@ function getDrink(event) {
     );
 }
 
+
+
 function rendor() {
     $name.text(drinkData.drinks[0].strDrink);
     $category.text(drinkData.drinks[0].strCategory);
-    $ingredients.text(drinkData.drinks[0].strIngredient1);
+    $ingredients.text(drinkData.drinks[0].strIngredient1)
     $instructions.text(drinkData.drinks[0].strInstructions);
     $poster.attr("src", drinkData.drinks[0].strDrinkThumb);
 };

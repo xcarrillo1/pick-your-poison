@@ -36,3 +36,4 @@ function rendor() {
 
 // event listener (button)
 $getDrinkBtn.on("click", getDrink)
+

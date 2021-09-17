@@ -15,7 +15,7 @@ These screenshots show a quick sketch of what the app look on mobile and desktop
 ![Pick Your Poison wireframe](image/WireFrame.png)
 
 ## Getting Started:
-[Click here](http://127.0.0.1:5500/) to check the app out!
+Click here to check the app out!
 
 ## Future Enhacements:
 - The ability to favorite your favorite drinks and save to localstorage.

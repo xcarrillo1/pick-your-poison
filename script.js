@@ -1,4 +1,4 @@
-alert("By clicking 'OK' you are confirming that you are 21 or older!");
+// alert("By clicking 'OK' you are confirming that you are 21 or older!");
 
 let drinkData;
 const $getDrinkBtn = $("#getDrinkBtn");

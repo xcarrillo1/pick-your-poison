@@ -15,7 +15,7 @@ These screenshots show a quick sketch of what the app look on mobile and desktop
 ![Pick Your Poison wireframe](image/WireFrame.png)
 
 ## Getting Started:
-[Click here](https://pick-your-poison1-92ye9cdrn-xcarrillo1.vercel.app/) to check the app out!
+[Click here](https://pick-your-poison1.vercel.app/) to check the app out!
 
 ## Future Enhacements:
 - The ability to favorite your favorite drinks and save to localstorage.

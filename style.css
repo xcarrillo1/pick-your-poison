@@ -73,7 +73,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    justify-content: space-around;
 }
 
 aside {
@@ -81,10 +80,18 @@ aside {
 }
 
 #poster {
-   max-width: 400px;
-   max-height: 400px; 
+   width: 400px;
 }
 
 .info {
     margin: 40px;
+    width: 400px;
+}
+
+footer a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    color: green;
+    text-decoration: none;
 }

@@ -1,4 +1,4 @@
-// alert("By clicking 'OK' you are confirming that you are 21 or older!");
+alert("By clicking 'OK' you are confirming that you are 21 or older!");
 
 let drinkData;
 let allIng;
@@ -31,7 +31,11 @@ function rendor() {
         let allIng = drinkData.drinks[0][`strIngredient${i}`]
         // console.log(i);
         // console.log(allIng);
-        $ingredients.append(allIng);
+        if (allIng) {
+            const $li = $("<li>");
+            $li.text(allIng);
+            $ingredients.append($li);
+        }
     }
     $name.text(drinkData.drinks[0].strDrink);
     $category.text(drinkData.drinks[0].strCategory);
@@ -45,3 +49,5 @@ function rendor() {
 // event listener (button)
 $getDrinkBtn.on("click", getDrink)
 
+// create a jquery element in for loop (li)
+// fill that stringredient(i) with element and append to the ul

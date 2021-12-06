@@ -1,5 +1,5 @@
 # **Pick Your Poison**
-<div style="text-align: justify"> A simple website meant to be a fun way for users to find out information about all different types of cocktails/shots/drinks. Users will be able to learn about different spirits, different combinations, ingredients, instructions on how to make them, and learn more about all different of cocktails.</div>
+<div style="text-align: justify"> Pick Your Poison is a website meant to be fun for users to find out information about all different types of cocktails/shots/drinks. Users will be able to learn about different spirits, different combinations, ingredients, instructions on how to make them, and learn more about all different of cocktails.</div>
 
 ## Technologies Used:
 - HTML
